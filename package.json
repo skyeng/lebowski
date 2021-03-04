@@ -1,0 +1,40 @@
+{
+  "name": "billing-helpdesk-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:skyeng/lebowski-bot.git",
+  "author": "George Bougakov <g@bougakov.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=\"dev\" nodemon",
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/events-api": "^2.3.0",
+    "@slack/interactive-messages": "^1.4.0",
+    "@slack/web-api": "^5.6.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^5.7.0",
+    "googleapis": "^46.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "ms": "^2.1.2",
+    "node-cron": "^2.0.3",
+    "pino": "^6.11.1"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  }
+}
