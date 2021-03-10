@@ -16,8 +16,8 @@
 3. `cd lebowski && yarn install`
 4. Создайте копию [этого](https://docs.google.com/spreadsheets/d/15NmxG28Bqi5dXiegEnXSUD7O0dWk4jHnW6oSRZ7wECg/edit?usp=sharing) Google Sheet в своем Google Drive
 5. В `config/projects.js` замените айди таблицы на айди вашей таблицы (есть в ссылке на таблицу) и айди канала на тот, в котором вы хотите собирать обращения ([как узнать айди канала](https://stackoverflow.com/questions/40940327/what-is-the-simplest-way-to-find-a-slack-team-id-and-a-channel-id))
-6. Сгенерируйте API-ключ для Google Sheets
-7. Сгенерируйте API-ключ для Slack
+6. [Сгенерируйте API-ключ для Google Sheets](#создание-api-ключа-для-google-sheets)
+7. [Сгенерируйте API-ключ для Slack](https://github.com/skyeng/lebowski#создание-api-ключа-для-slack)
 8. Создайте файл `config/secrets.js` с таким содержанием
     ```js
     module.exports = {
